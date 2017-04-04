@@ -2,8 +2,64 @@
 h1, body, html, main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*Page Wrapper*/
+.page-wrapper {
+    margin: auto;
+    /*background-color: #eeeeee;*/
+    max-width: 1200px;
+}
+
+/*Banner*/
+.banner-text {
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    background-image: url("../images/soup.jpg");
+    background-size: cover;
+    line-height: 600px;
+    background-position: center;
+    font-size: 60pt;
+}
+
+/*Description*/
+.description {
+    margin: 50px 150px 50px;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.info-image {
+    display: block;
+    margin: auto;
+}
+
+/*Ingredients*/
+.ingredients {
+    margin: 50px 150px 50px;
+}
+
+.ingredients ul {
+    padding: 0;
+    list-style: none;
+}
+
+.ingredients ul li:before {
+    content: "-";
+    margin-right: 4px;
+}
+
+/*Directions*/
+.directions {
+    margin: 50px 150px 50px;
+    text-align: justify;
+}
+
+
